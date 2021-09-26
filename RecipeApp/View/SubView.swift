@@ -28,7 +28,7 @@ struct SubView: View {
                 ForEach(eachRecipe.ingredients, id: \.self){r in
                     Text("  • \(r)")
                 }
-                Divider()
+                
                 // directions
                 Text("Directions")
                     .fontWeight(.bold)
