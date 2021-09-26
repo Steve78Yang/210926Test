@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1871036126FF2B6E004F7873 /* RecipeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871036026FF2B6E004F7873 /* RecipeAppApp.swift */; };
-		1871036326FF2B6E004F7873 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871036226FF2B6E004F7873 /* ContentView.swift */; };
+		1871036326FF2B6E004F7873 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871036226FF2B6E004F7873 /* MainView.swift */; };
 		1871036526FF2B74004F7873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1871036426FF2B74004F7873 /* Assets.xcassets */; };
 		1871036826FF2B74004F7873 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1871036726FF2B74004F7873 /* Preview Assets.xcassets */; };
 		1871037D26FF2D25004F7873 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 1871037C26FF2D0B004F7873 /* recipes.json */; };
@@ -16,12 +16,13 @@
 		1871038126FF3000004F7873 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871038026FF3000004F7873 /* ViewModel.swift */; };
 		1871038326FF33B0004F7873 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871038226FF33B0004F7873 /* Service.swift */; };
 		187103A427000337004F7873 /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187103A327000337004F7873 /* SubView.swift */; };
+		187103C527005162004F7873 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187103C427005162004F7873 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1871035D26FF2B6E004F7873 /* RecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1871036026FF2B6E004F7873 /* RecipeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAppApp.swift; sourceTree = "<group>"; };
-		1871036226FF2B6E004F7873 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1871036226FF2B6E004F7873 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		1871036426FF2B74004F7873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1871036726FF2B74004F7873 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1871036926FF2B74004F7873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -30,6 +31,7 @@
 		1871038026FF3000004F7873 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		1871038226FF33B0004F7873 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		187103A327000337004F7873 /* SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
+		187103C427005162004F7873 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +87,8 @@
 		1871036F26FF2B81004F7873 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1871036226FF2B6E004F7873 /* ContentView.swift */,
+				187103C427005162004F7873 /* ListView.swift */,
+				1871036226FF2B6E004F7873 /* MainView.swift */,
 				187103A327000337004F7873 /* SubView.swift */,
 			);
 			path = View;
@@ -195,8 +198,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1871037F26FF2FF5004F7873 /* Model.swift in Sources */,
-				1871036326FF2B6E004F7873 /* ContentView.swift in Sources */,
+				1871036326FF2B6E004F7873 /* MainView.swift in Sources */,
 				1871038326FF33B0004F7873 /* Service.swift in Sources */,
+				187103C527005162004F7873 /* ListView.swift in Sources */,
 				187103A427000337004F7873 /* SubView.swift in Sources */,
 				1871038126FF3000004F7873 /* ViewModel.swift in Sources */,
 				1871036126FF2B6E004F7873 /* RecipeAppApp.swift in Sources */,
